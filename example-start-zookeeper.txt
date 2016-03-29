@@ -1,0 +1,1 @@
+docker run -it --rm --hostname linaro-alip-0 -e ZK_ID=1 -e ZK_SERVERS=server.2=192.168.0.25:2888:3888 -p 2181:2181 -p 2888:2888 -p 3888:3888 dockreg.owlab.com:5000/aarch64-zookeeper
